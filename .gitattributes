@@ -33,3 +33,4 @@ MMO/Content/Mannequin filter=lfs diff=lfs merge=lfs -text
 MMO/Intermediate/ReimportCache filter=lfs diff=lfs merge=lfs -text
 *.dcc filter=lfs diff=lfs merge=lfs -text
 MMO/** filter=lfs diff=lfs merge=lfs -text
+MMO[[:space:]]4.27/** filter=lfs diff=lfs merge=lfs -text
