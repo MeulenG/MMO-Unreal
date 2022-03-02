@@ -1,0 +1,754 @@
+Not using cached read wrapper
+Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+Stats thread started at 0.091082
+ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+Loading text-based GConfig....
+Mounting plugin MeshPainting
+Mounting plugin XGEController
+Mounting plugin ChaosSolverPlugin
+Mounting plugin AlembicImporter
+Mounting plugin PythonScriptPlugin
+Mounting plugin CharacterAI
+Mounting plugin GeometryCollectionPlugin
+Mounting plugin BackChannel
+Mounting plugin ProxyLODPlugin
+Mounting plugin PlanarCut
+Mounting plugin PlatformCrypto
+Mounting plugin ChaosNiagara
+Mounting plugin ChaosEditor
+Mounting plugin SkeletalReduction
+Mounting plugin OpenImageDenoise
+Mounting plugin GeometryCache
+Mounting plugin MotoSynth
+Mounting plugin GeometryProcessing
+Mounting plugin ChaosClothEditor
+Mounting plugin ChaosCloth
+Mounting plugin AutomationUtils
+Mounting plugin LiveLink
+Mounting plugin Paper2D
+Mounting plugin LightPropagationVolume
+Mounting plugin PluginBrowser
+Mounting plugin DataValidation
+Mounting plugin MaterialAnalyzer
+Mounting plugin MacGraphicsSwitching
+Mounting plugin CryptoKeys
+Mounting plugin GeometryMode
+Mounting plugin AssetManagerEditor
+Mounting plugin GameplayTagsEditor
+Mounting plugin CurveEditorTools
+Mounting plugin FacialAnimation
+Mounting plugin SpeedTreeImporter
+Mounting plugin CustomMeshComponent
+Mounting plugin MobileLauncherProfileWizard
+Mounting plugin Synthesis
+Mounting plugin Niagara
+Mounting plugin AssetTags
+Mounting plugin GoogleCloudMessaging
+Mounting plugin OpenXRHandTracking
+Mounting plugin AppleImageUtils
+Mounting plugin ExampleDeviceProfileSelector
+Mounting plugin AndroidDeviceProfileSelector
+Mounting plugin ProceduralMeshComponent
+Mounting plugin RuntimePhysXCooking
+Mounting plugin WebMMoviePlayer
+Mounting plugin AppleMoviePlayer
+Mounting plugin GooglePAD
+Mounting plugin PropertyAccessEditor
+Mounting plugin ActorSequence
+Mounting plugin LevelSequenceEditor
+Mounting plugin SoundFields
+Mounting plugin MobilePatchingUtils
+Mounting plugin MatineeToLevelSequence
+Mounting plugin TemplateSequence
+Mounting plugin OpenXR
+Mounting plugin EditableMesh
+Mounting plugin AndroidPermission
+Mounting plugin CableComponent
+Mounting plugin PhysXVehicles
+Mounting plugin ArchVisCharacter
+Mounting plugin AudioCapture
+Mounting plugin OpenXREyeTracker
+Mounting plugin ActorLayerUtilities
+Mounting plugin ChunkDownloader
+Mounting plugin WindowsMoviePlayer
+Mounting plugin LinuxDeviceProfileSelector
+Mounting plugin PostSplashScreen
+Mounting plugin AndroidMedia
+Mounting plugin SignificanceManager
+Mounting plugin WmfMedia
+Mounting plugin IOSDeviceProfileSelector
+Mounting plugin WebMMedia
+Mounting plugin MediaPlayerEditor
+Mounting plugin AudioSynesthesia
+Mounting plugin ImgMedia
+Mounting plugin AndroidMoviePlayer
+Mounting plugin AvfMedia
+Mounting plugin LocationServicesBPLibrary
+Mounting plugin MediaCompositing
+Mounting plugin VariantManagerContent
+Mounting plugin OnlineSubsystem
+Mounting plugin DatasmithContent
+Mounting plugin OnlineSubsystemNull
+Mounting plugin Takes
+Mounting plugin OnlineSubsystemUtils
+Mounting plugin CameraShakePreviewer
+Mounting plugin GameplayCameras
+Mounting plugin LuminPlatformFeatures
+Mounting plugin MagicLeapLightEstimation
+Mounting plugin MagicLeapPassableWorld
+Mounting plugin ScreenshotTools
+Mounting plugin OodleData
+Mounting plugin MagicLeap
+Mounting plugin MLSDK
+Mounting plugin OodleNetwork
+Mounting plugin MagicLeapMedia
+Mounting plugin EnvironmentQueryEditor
+Mounting plugin AISupport
+Mounting plugin LauncherChunkInstaller
+Mounting plugin SubversionSourceControl
+Mounting plugin PixWinPlugin
+Mounting plugin PluginUtils
+Mounting plugin TextureFormatOodle
+Mounting plugin NullSourceCodeAccess
+Mounting plugin UObjectPlugin
+Mounting plugin XCodeSourceCodeAccess
+Mounting plugin CodeLiteSourceCodeAccess
+Mounting plugin KDevelopSourceCodeAccess
+Mounting plugin GitSourceControl
+Mounting plugin VisualStudioSourceCodeAccess
+Mounting plugin PropertyAccessNode
+Mounting plugin AnimationSharing
+Mounting plugin RiderSourceCodeAccess
+Mounting plugin PlasticSourceControl
+Mounting plugin TcpMessaging
+Mounting plugin CLionSourceCodeAccess
+Mounting plugin PerforceSourceControl
+Mounting plugin VisualStudioCodeSourceCodeAccess
+Mounting plugin UdpMessaging
+Mounting plugin ContentBrowserFileDataSource
+Mounting plugin ContentBrowserAssetDataSource
+Mounting plugin ContentBrowserClassDataSource
+Mounting plugin OculusVR
+Mounting plugin SteamVR
+Mounting plugin OnlineSubsystemGooglePlay
+Mounting plugin OnlineSubsystemIOS
+Using libcurl 7.65.3-DEV
+ - built for x86_64-unknown-linux-gnu
+ - supports SSL with OpenSSL/1.1.1c
+ - supports HTTP deflate (compression) using libz 1.2.8
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_TLSAUTH_SRP
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+OSS: Creating online subsystem instance for: NULL
+OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+Build: ++UE4+Release-4.27-CL-0
+Engine Version: 4.27.0-0+++UE4+Release-4.27
+Compatible Engine Version: 4.27.0-0+++UE4+Release-4.27
+Net CL: 0
+OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz, GPU: GenericGPUBrand
+Compiled (64-bit): Aug 29 2021 17:45:47
+Compiled with Clang: 11.0.1 
+Build Configuration: Development
+Branch Name: ++UE4+Release-4.27
+Command Line: 
+Base Directory: /home/puhaa/Desktop/DevProjects/UnrealEngine/Engine/Binaries/Linux/
+Allocator: binned2
+Installed Engine Build: 0
+Number of dev versions registered: 29
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+  FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+  Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+  Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+  Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+  Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+  Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+  Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+  Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Object subsystem initialized
+Setting CVar [[con.DebugEarlyDefault:1]]
+Setting CVar [[r.setres:1280x720]]
+Setting CVar [[r.VSync:0]]
+Setting CVar [[r.RHICmdBypass:0]]
+Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Setting CVar [[r.GPUCrashDebugging:0]]
+Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+Setting CVar [[gc.FlushStreamingOnGC:0]]
+Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+Setting CVar [[gc.AllowParallelGC:1]]
+Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+Setting CVar [[gc.CreateGCClusters:1]]
+Setting CVar [[gc.MinGCClusterSize:5]]
+Setting CVar [[gc.ActorClusteringEnabled:0]]
+Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Initializing SDL.
+Initialized SDL 2.0.12 revision: 13609 (hg-13609:34cc7d3b69d3) (compiled against 2.0.12)
+Using SDL video driver 'x11'
+Display metrics:
+  PrimaryDisplayWidth: 3840
+  PrimaryDisplayHeight: 1080
+  PrimaryDisplayWorkAreaRect:
+    Left=0, Top=32, Right=3840, Bottom=1080
+  VirtualDisplayRect:
+    Left=0, Top=32, Right=3840, Bottom=1080
+  TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  Number of monitors: 1
+    Monitor 0
+      Name: C49HG9x 49"
+      ID: display0
+      NativeWidth: 3840
+      NativeHeight: 1080
+      bIsPrimary: true
+Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+Applying CVar settings from Section [FoliageQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Selected Device Profile: [Linux]
+Applying CVar settings loaded from the selected device profile: [Linux]
+Platform has ~ 4 GB [33562468352 / 4294967296 / 32], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile []
+Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+Applying CVar settings from Section [FoliageQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+Applying CVar settings from Section [ConsoleVariables] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Engine.ini]
+Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+Applying CVar settings from Section [ConsoleVariables] File [/home/puhaa/Desktop/DevProjects/MMO-Unreal/Platform/Saved/Config/Linux/Editor.ini]
+Unix hardware info:
+ - we are the first instance of this executable
+ - this process' id (pid) is 75022, parent process' id (ppid) is 2359
+ - we are not running under debugger
+ - machine network name is 'pop-os'
+ - user name is 'puhaa' (puhaa)
+ - we're logged in locally
+ - we're running with rendering
+ - CPU: GenuineIntel 'Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz' (signature: 0xA0652)
+ - Number of physical cores available for the process: 8
+ - Number of logical cores available for the process: 16
+ - Cache line size: 64
+ - Memory allocator used: binned2
+ - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+ - This is an internal build.
+Benchmarking clocks:
+ - CLOCK_MONOTONIC (id=1) can sustain 66152800 (66153K, 66M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_RAW (id=4) can sustain 63956038 (63956K, 64M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_COARSE (id=6) can sustain 202513171 (202513K, 203M) calls per second with 99.999872% zero deltas.
+Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+Unix-specific commandline switches:
+ -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+ -jemalloc - use jemalloc for all memory allocation
+ -binnedmalloc - use binned malloc  for all memory allocation
+ -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+ -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+ -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+ -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+ -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+ -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+ -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+ -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+ - Physical RAM available (not considering process quota): 32 GB (32007 MB, 32775848 KB, 33562468352 bytes)
+ - VirtualMemoryAllocator pools will grow at scale 1.4
+ - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+Physics initialised using underlying interface: PhysX
+Using OS detected language (en-US).
+Using OS detected locale (en-US).
+No specific localization for 'en-US' exists, so the 'en' localization will be used.
+New Slate User Created.  User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Using SDL_WINDOW_VULKAN
+- Found 7 instance layers
+* VK_LAYER_MESA_device_select
+* VK_LAYER_MESA_overlay
+* VK_LAYER_NV_optimus
+* VK_LAYER_VALVE_steam_fossilize_32
+* VK_LAYER_VALVE_steam_fossilize_64
+* VK_LAYER_VALVE_steam_overlay_32
+* VK_LAYER_VALVE_steam_overlay_64
+- Found 18 instance extensions
+* VK_EXT_acquire_xlib_display
+* VK_EXT_debug_report
+* VK_EXT_debug_utils
+* VK_EXT_direct_mode_display
+* VK_EXT_display_surface_counter
+* VK_KHR_device_group_creation
+* VK_KHR_display
+* VK_KHR_external_fence_capabilities
+* VK_KHR_external_memory_capabilities
+* VK_KHR_external_semaphore_capabilities
+* VK_KHR_get_display_properties2
+* VK_KHR_get_physical_device_properties2
+* VK_KHR_get_surface_capabilities2
+* VK_KHR_surface
+* VK_KHR_surface_protected_capabilities
+* VK_KHR_wayland_surface
+* VK_KHR_xcb_surface
+* VK_KHR_xlib_surface
+Failed to initialize OpenVR with code 110
+Not using instance layers
+Using instance extensions
+* VK_KHR_surface
+* VK_KHR_xlib_surface
+* VK_KHR_external_memory_capabilities
+* VK_KHR_get_physical_device_properties2
+Found 2 device(s)
+Device 0: NVIDIA GeForce RTX 3080 Laptop GPU
+- API 1.3.194(0x4030c2) Driver 0x7f8d8000 VendorId 0x10de
+- DeviceID 0x249c Type Discrete GPU
+- Max Descriptor Sets Bound 32 Timestamps 1
+- Device Properties driverName: NVIDIA
+- Device Properties driverInfo: 510.54
+-    Found device layer VK_LAYER_MESA_device_select
+-    Found device extension VK_EXT_4444_formats
+-    Found device extension VK_EXT_blend_operation_advanced
+-    Found device extension VK_EXT_border_color_swizzle
+-    Found device extension VK_EXT_buffer_device_address
+-    Found device extension VK_EXT_calibrated_timestamps
+-    Found device extension VK_EXT_color_write_enable
+-    Found device extension VK_EXT_conditional_rendering
+-    Found device extension VK_EXT_conservative_rasterization
+-    Found device extension VK_EXT_custom_border_color
+-    Found device extension VK_EXT_depth_clip_control
+-    Found device extension VK_EXT_depth_clip_enable
+-    Found device extension VK_EXT_depth_range_unrestricted
+-    Found device extension VK_EXT_descriptor_indexing
+-    Found device extension VK_EXT_discard_rectangles
+-    Found device extension VK_EXT_display_control
+-    Found device extension VK_EXT_extended_dynamic_state
+-    Found device extension VK_EXT_extended_dynamic_state2
+-    Found device extension VK_EXT_external_memory_host
+-    Found device extension VK_EXT_fragment_shader_interlock
+-    Found device extension VK_EXT_global_priority
+-    Found device extension VK_EXT_global_priority_query
+-    Found device extension VK_EXT_host_query_reset
+-    Found device extension VK_EXT_image_robustness
+-    Found device extension VK_EXT_image_view_min_lod
+-    Found device extension VK_EXT_index_type_uint8
+-    Found device extension VK_EXT_inline_uniform_block
+-    Found device extension VK_EXT_line_rasterization
+-    Found device extension VK_EXT_load_store_op_none
+-    Found device extension VK_EXT_memory_budget
+-    Found device extension VK_EXT_multi_draw
+-    Found device extension VK_EXT_pci_bus_info
+-    Found device extension VK_EXT_physical_device_drm
+-    Found device extension VK_EXT_pipeline_creation_cache_control
+-    Found device extension VK_EXT_pipeline_creation_feedback
+-    Found device extension VK_EXT_post_depth_coverage
+-    Found device extension VK_EXT_primitive_topology_list_restart
+-    Found device extension VK_EXT_private_data
+-    Found device extension VK_EXT_provoking_vertex
+-    Found device extension VK_EXT_queue_family_foreign
+-    Found device extension VK_EXT_robustness2
+-    Found device extension VK_EXT_sample_locations
+-    Found device extension VK_EXT_sampler_filter_minmax
+-    Found device extension VK_EXT_scalar_block_layout
+-    Found device extension VK_EXT_separate_stencil_usage
+-    Found device extension VK_EXT_shader_atomic_float
+-    Found device extension VK_EXT_shader_demote_to_helper_invocation
+-    Found device extension VK_EXT_shader_image_atomic_int64
+-    Found device extension VK_EXT_shader_subgroup_ballot
+-    Found device extension VK_EXT_shader_subgroup_vote
+-    Found device extension VK_EXT_shader_viewport_index_layer
+-    Found device extension VK_EXT_subgroup_size_control
+-    Found device extension VK_EXT_texel_buffer_alignment
+-    Found device extension VK_EXT_tooling_info
+-    Found device extension VK_EXT_transform_feedback
+-    Found device extension VK_EXT_vertex_attribute_divisor
+-    Found device extension VK_EXT_vertex_input_dynamic_state
+-    Found device extension VK_EXT_ycbcr_2plane_444_formats
+-    Found device extension VK_EXT_ycbcr_image_arrays
+-    Found device extension VK_KHR_16bit_storage
+-    Found device extension VK_KHR_8bit_storage
+-    Found device extension VK_KHR_acceleration_structure
+-    Found device extension VK_KHR_bind_memory2
+-    Found device extension VK_KHR_buffer_device_address
+-    Found device extension VK_KHR_copy_commands2
+-    Found device extension VK_KHR_create_renderpass2
+-    Found device extension VK_KHR_dedicated_allocation
+-    Found device extension VK_KHR_deferred_host_operations
+-    Found device extension VK_KHR_depth_stencil_resolve
+-    Found device extension VK_KHR_descriptor_update_template
+-    Found device extension VK_KHR_device_group
+-    Found device extension VK_KHR_draw_indirect_count
+-    Found device extension VK_KHR_driver_properties
+-    Found device extension VK_KHR_dynamic_rendering
+-    Found device extension VK_KHR_external_fence
+-    Found device extension VK_KHR_external_fence_fd
+-    Found device extension VK_KHR_external_memory
+-    Found device extension VK_KHR_external_memory_fd
+-    Found device extension VK_KHR_external_semaphore
+-    Found device extension VK_KHR_external_semaphore_fd
+-    Found device extension VK_KHR_format_feature_flags2
+-    Found device extension VK_KHR_fragment_shading_rate
+-    Found device extension VK_KHR_get_memory_requirements2
+-    Found device extension VK_KHR_global_priority
+-    Found device extension VK_KHR_image_format_list
+-    Found device extension VK_KHR_imageless_framebuffer
+-    Found device extension VK_KHR_maintenance1
+-    Found device extension VK_KHR_maintenance2
+-    Found device extension VK_KHR_maintenance3
+-    Found device extension VK_KHR_maintenance4
+-    Found device extension VK_KHR_multiview
+-    Found device extension VK_KHR_pipeline_executable_properties
+-    Found device extension VK_KHR_pipeline_library
+-    Found device extension VK_KHR_present_id
+-    Found device extension VK_KHR_present_wait
+-    Found device extension VK_KHR_push_descriptor
+-    Found device extension VK_KHR_ray_query
+-    Found device extension VK_KHR_ray_tracing_pipeline
+-    Found device extension VK_KHR_relaxed_block_layout
+-    Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+-    Found device extension VK_KHR_sampler_ycbcr_conversion
+-    Found device extension VK_KHR_separate_depth_stencil_layouts
+-    Found device extension VK_KHR_shader_atomic_int64
+-    Found device extension VK_KHR_shader_clock
+-    Found device extension VK_KHR_shader_draw_parameters
+-    Found device extension VK_KHR_shader_float16_int8
+-    Found device extension VK_KHR_shader_float_controls
+-    Found device extension VK_KHR_shader_integer_dot_product
+-    Found device extension VK_KHR_shader_non_semantic_info
+-    Found device extension VK_KHR_shader_subgroup_extended_types
+-    Found device extension VK_KHR_shader_subgroup_uniform_control_flow
+-    Found device extension VK_KHR_shader_terminate_invocation
+-    Found device extension VK_KHR_spirv_1_4
+-    Found device extension VK_KHR_storage_buffer_storage_class
+-    Found device extension VK_KHR_swapchain
+-    Found device extension VK_KHR_swapchain_mutable_format
+-    Found device extension VK_KHR_synchronization2
+-    Found device extension VK_KHR_timeline_semaphore
+-    Found device extension VK_KHR_uniform_buffer_standard_layout
+-    Found device extension VK_KHR_variable_pointers
+-    Found device extension VK_KHR_vulkan_memory_model
+-    Found device extension VK_KHR_workgroup_memory_explicit_layout
+-    Found device extension VK_KHR_zero_initialize_workgroup_memory
+-    Found device extension VK_NV_clip_space_w_scaling
+-    Found device extension VK_NV_compute_shader_derivatives
+-    Found device extension VK_NV_cooperative_matrix
+-    Found device extension VK_NV_corner_sampled_image
+-    Found device extension VK_NV_coverage_reduction_mode
+-    Found device extension VK_NV_cuda_kernel_launch
+-    Found device extension VK_NV_dedicated_allocation
+-    Found device extension VK_NV_dedicated_allocation_image_aliasing
+-    Found device extension VK_NV_device_diagnostic_checkpoints
+-    Found device extension VK_NV_device_diagnostics_config
+-    Found device extension VK_NV_device_generated_commands
+-    Found device extension VK_NV_fill_rectangle
+-    Found device extension VK_NV_fragment_coverage_to_color
+-    Found device extension VK_NV_fragment_shader_barycentric
+-    Found device extension VK_NV_fragment_shading_rate_enums
+-    Found device extension VK_NV_framebuffer_mixed_samples
+-    Found device extension VK_NV_geometry_shader_passthrough
+-    Found device extension VK_NV_inherited_viewport_scissor
+-    Found device extension VK_NV_mesh_shader
+-    Found device extension VK_NV_ray_tracing
+-    Found device extension VK_NV_ray_tracing_motion_blur
+-    Found device extension VK_NV_representative_fragment_test
+-    Found device extension VK_NV_sample_mask_override_coverage
+-    Found device extension VK_NV_scissor_exclusive
+-    Found device extension VK_NV_shader_image_footprint
+-    Found device extension VK_NV_shader_sm_builtins
+-    Found device extension VK_NV_shader_subgroup_partitioned
+-    Found device extension VK_NV_shading_rate_image
+-    Found device extension VK_NV_viewport_array2
+-    Found device extension VK_NV_viewport_swizzle
+-    Found device extension VK_NVX_binary_import
+-    Found device extension VK_NVX_image_view_handle
+-    Found device extension VK_NVX_multiview_per_view_attributes
+0x00007fbeff95be1f Dladdr: 0.007070ms Open: 0.008719ms Search: 0.011773ms
+0x00007fbeff9ecac5 Dladdr: 0.006010ms Open: 0.003429ms Search: 0.012389ms
+0x00007fbeff9e8dc2 Dladdr: 0.005055ms Open: 0.003414ms Search: 0.012471ms
+0x00007fbeff9e8947 Dladdr: 0.004632ms Open: 0.003090ms Search: 0.011569ms
+0x00007fbfdb3c016f Dladdr: 0.003612ms Open: 0.004024ms Search: 0.011087ms
+0x0000000000280e0f Dladdr: 0.007385ms Open: 0.003740ms Search: 0.011266ms
+0x00000000002779ab Dladdr: 0.004565ms Open: 0.002840ms Search: 0.009503ms
+0x00007fbfd80ce055 Dladdr: 0.000421ms Open: 0.003853ms Search: 0.007406ms
+0x00007fbfd7de0fcf Dladdr: 0.012117ms Open: 0.002450ms Search: 0.000743ms
+0x00007fbfd7de107c Dladdr: 0.010441ms Open: 0.001973ms Search: 0.000136ms
+0x00000000002611f8 Dladdr: 0.005075ms Open: 0.003306ms Search: 0.010010ms
+FPlatformStackWalk::StackWalkAndDump -  0.001 s
+=== Handled ensure: ===
+
+Ensure condition failed: VendorId != EGpuVendorId::Unknown [File:/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp] [Line: 188]
+
+Stack: 
+[Callstack] 0x00007fbeff95be20 libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:188]
+[Callstack] 0x00007fbeff9ecac6 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::SelectAndInitDevice() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:559]
+[Callstack] 0x00007fbeff9e8dc3 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::InitInstance() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:702]
+[Callstack] 0x00007fbeff9e8948 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::Init() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:248]
+[Callstack] 0x00007fbfdb3c0170 libUE4Editor-RHI.so!RHIInit(bool) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:226]
+[Callstack] 0x0000000000280e10 UE4Editor!FEngineLoop::PreInitPreStartupScreen(char16_t const*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2599]
+[Callstack] 0x00000000002779ac UE4Editor!GuardedMain(char16_t const*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:132]
+[Callstack] 0x00007fbfd80ce056 libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+[Callstack] 0x00007fbfd7de0fd0 libc.so.6!UnknownFunction(0x29fcf)
+[Callstack] 0x00007fbfd7de107d libc.so.6!__libc_start_main(+0x7c)
+[Callstack] 0x00000000002611f9 UE4Editor!_start()
+
+               SubmitErrorReport -  0.000 s

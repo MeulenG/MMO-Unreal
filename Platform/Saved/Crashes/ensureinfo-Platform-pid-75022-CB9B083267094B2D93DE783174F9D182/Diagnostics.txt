@@ -1,0 +1,37 @@
+Generating report for minidump
+
+Application version 4.27.0.0
+ ... built from changelist 0
+
+OS version Linux 5.15.23-76051523-generic (network name: pop-os)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "Ensure condition failed: VendorId != EGpuVendorId::Unknown [File:/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp] [Line: 188]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:693]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:191]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:291]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:900]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:428]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:494]
+libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*)::$_212::operator()() const [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:188]
+libUE4Editor-VulkanRHI.so!FVulkanDevice::FVulkanDevice(FVulkanDynamicRHI*, VkPhysicalDevice_T*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:188]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::SelectAndInitDevice() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:559]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::InitInstance() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:702]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::Init() [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:248]
+libUE4Editor-RHI.so!RHIInit(bool) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:226]
+UE4Editor!FEngineLoop::PreInitPreStartupScreen(char16_t const*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2599]
+UE4Editor!GuardedMain(char16_t const*) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:132]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/puhaa/Desktop/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!UnknownFunction(0x29fcf)
+libc.so.6!__libc_start_main(+0x7c)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
